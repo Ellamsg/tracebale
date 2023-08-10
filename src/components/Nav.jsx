@@ -46,7 +46,8 @@ export default function Nav() {
           </div>
 
           <ul
-            className={`md:flex md:items-center px-4 md:px-0 py-4 md:py-0  bg-white md:bg-transparent text-sm  bg-oceanblue w-full justify-end  text-black
+            className={`md:flex md:items-center px-4 md:px-0 py-4 md:py-0 
+             bg-white md:bg-transparent text-sm  bg-oceanblue w-full justify-end  text-black
          absolute md:static md:z-auto  
         left-0   transition-all duration-500 
         ease-in ${open ? "top-7" : "top-[-490px]"}`}
@@ -65,7 +66,8 @@ export default function Nav() {
               ))}
             </div>
             <Link to="Cart">
-              <div className=" pl-3 justify-center md:py-0 py-[5px] border-boxwind border-2 md:border-0  flex">
+              <div className=" pl-3 justify-center md:py-0 py-[5px]
+               border-boxwind border-2 md:border-0  flex">
               
               <div className="pt-[6px] ">
          
