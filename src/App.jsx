@@ -1,19 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
-function App() {
-  
-
-  return (
-    <>
-      <div>
-       <p className='bg-red text-green text-right'>gggg</p>
-      </div>
-    
-    </>
+import { useState } from "react";
+import React from "react";
+import "./App.css";
+import {
+  Route,
+  createBrowserRouter,
+  createRoutesFromElements,
+  RouterProvider,
+} from "react-router-dom";
+import RootLayouts from "./RootLayouts/RootLayouts";
+import Home from "./pages/Home";
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<RootLayouts />}>
+      <Route index element={<Home />} />
+    </Route>
   )
+);
+function App() {
+  return <RouterProvider router={router} />;
 }
 
-export default App
+export default App;
