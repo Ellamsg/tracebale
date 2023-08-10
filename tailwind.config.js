@@ -140,7 +140,7 @@ module.exports = {
       },
     extend: {
       backgroundImage:{
-        'var' :"url('page/gettyimages-1171377963-612x612.jpg')",
+        'garden' :"url('garden.png')",
       },
       padding: {
         '5px': '5px',
