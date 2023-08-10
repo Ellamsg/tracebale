@@ -7,3 +7,9 @@ background-color: #CBDAFB;
 .landing{
   background-color: #CBDAFB;
 }
+
+.knowmore{
+  background-image: url('cotton.png');
+  object-fit: cover;
+  background-position: center;
+}

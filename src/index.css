@@ -8,3 +8,9 @@
   @apply 
 bg-[#D73F91] rounded-md text-white text-[16px] px-[36px] py-[10px];
 }
+
+.btn2{
+
+  @apply 
+ border-2 border-white rounded-md text-white text-[16px] px-[36px] py-[10px];
+}
