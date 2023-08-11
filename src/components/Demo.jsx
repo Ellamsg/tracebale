@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Demo() {
   return (
-    <div className="py-7 bg-[#B4F5FF] relative h-[730px] md:h-[1050px] lg:h-[770px] ">
+    <div className="py-7 bg-[#B4F5FF] relative h-[870px] md:h-[1050px] lg:h-[770px] ">
       {/* Demo section
        */}
       <div className="flex lg:flex-row flex-col  justify-items-center px-3  lg:px-6 gap-5 justify-center">
@@ -18,9 +18,9 @@ export default function Demo() {
           <h2 className="lg:text-[64px] text-[24px]  text-[#004542] font-bold leading-tight ">
             SAY HELLO TO TRACEBALE
           </h2>
-          <p className="lg:w-[66%] text-[#004542] text-[15px] lg:text-[20px]">
-            Lorem ipsum dolor, sit amet consectetur adipisicin ro expedita! Nam
-            doloribus laborum in repellendus nisi autem recusan iste unde fugit!
+          <p className="lg:w-[66%] text-[#004542]  text-[15px] lg:text-[20px]">
+          CottonConnect offers a unique and customizable platform - 
+          TraceBale, designed specifically for the textile industry.
           </p>
           <button className="btn my-4">REQUEST A DEMO</button>
         </div>
@@ -52,17 +52,15 @@ export default function Demo() {
           ></path>
           ffffff
         </svg>
-        <div className=" justify-center px-3  flex lg:flex-row flex-col z-30 absolute lg:bottom-[50px]">
-          <div className="lg:border-r-2 lg:px-5 font-bold text-[24px] lg:text-[48px] border-[#004542]">
+        <div className=" justify-center px-3 lg:items-center  flex lg:flex-row flex-col z-30 absolute lg:bottom-[20px]">
+          <div className="lg:border-r-2 text-[#004542] lg:py-4  lg:px-5 font-bold text-[24px] lg:text-[48px] border-[#004542]">
             <p>TRACE THE ORIGIN</p>
           </div>
 
-          <div className="lg:w-[60%] lg:text-[20px] text-[12px] lg:px-5">
+          <div className="lg:w-[60%] text-[#333333] lg:text-[20px] text-[15px] lg:px-6">
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Doloremque veritatis consequatur soluta fuga recusandae corporis
-              sed natus magnam, amet odit. Enim nihil voluptas voluptatibus
-              nobis eaque, cum veniam incidunt optio.
+            By incorporating profiles of the processors involved at each stage, TraceBale empowers brands to gain insights into the origins of their products. Retailers can now 
+            understand and verify the precise sources of their materials, enhancing transparency and accountability. 
             </p>
           </div>
         </div>

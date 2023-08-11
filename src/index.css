@@ -18,19 +18,19 @@ bg-[#D73F91] rounded-md text-white text-[12px] lg:text-[16px] px-[36px] py-[10px
 
 .histogram{
 
-  @apply lg:w-[180px] rounded-t-[16px];
+  @apply lg:w-auto md:w-[109px] w-[70px] flex-wrap lg:px-4 px-2 rounded-t-[16px];
 
 }
 
 .histogram-text{
 
-  @apply text-center text-white font-bold lg:text-[48px];
+  @apply text-center py-2  text-white font-bold lg:text-[42px];
 
 }
 
 .histogram-text2{
 
-  @apply lg:text-[24px] text-center py-3 text-[12px];
+  @apply text-[#333333] font-semibold lg:w-[130px]  lg:text-[20px] text-center py-3 text-[9px];
 }
 
 .isolation{

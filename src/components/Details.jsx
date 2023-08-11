@@ -7,9 +7,9 @@ export default function Details() {
       <div className="">
         <div className="lg:px-6 px-3 text-[#0E40BB]">
           <p className="lg:text-[64px] text-[32px] leading-tight font-bold">Tracable-one platform to make ur work Go round</p>
-          <p className="text-[20px] ">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla non,
-            commodi minus at illo similique, unde odio iusto quidem error .
+          <p className="lg:text-[20px]  py-4">
+          TraceBale by CottonConnect revolutionizes supply chain management, by providing complete traceability in 
+          the supply chain and help brands target sustainability goals and validate claims. 
           </p>
         </div>
 
@@ -38,7 +38,7 @@ export default function Details() {
             </div>
             <div className="isolation ">
               <img src="Isolation4.png" />
-              <p><span className="span">Regular data  intake </span> at farm/gin level- <span className="span">real- time availability</span> of seed cotton/lint</p>
+              <p>Bale tracking back to farm level-<span className="span"> </span> <span className="span">unique farmer/bale/yarn IDs</span> </p>
             </div>
             <button className=" w-[70%] rounded-[10px] bg-[#D73F91] text-[16px] text-white p-[10px]">KNOW PLATFORM IN DETAILS</button>
           </div>
