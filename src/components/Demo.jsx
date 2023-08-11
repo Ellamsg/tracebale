@@ -14,7 +14,7 @@ export default function Demo() {
       {/* Demo section
        */}
       <div className="flex lg:flex-row flex-col  justify-items-center px-3  lg:px-6 gap-5 justify-center">
-      <Fade delay={1e3} cascade damping={1e-1} direction="up">
+      <Fade  direction="up">
       <div className="">
             
             <img

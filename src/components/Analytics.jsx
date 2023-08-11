@@ -5,7 +5,7 @@ export default function Analytics() {
     <div className="bg-[#0F265C]">
          
       <div className="flex lg:flex-row md:flex-row  flex-col gap-6">
-      <Fade  delay={1e3} cascade damping={1e-1} direction="up">
+      <Fade  cascade damping={1e-1} direction="up">
         <div className="class flex object-contain bg-contain">
           <img className=" lg-h-[650px] lg:w-auto w-full h-[650px]  " src="lady2.png" />
         </div>
