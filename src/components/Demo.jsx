@@ -15,9 +15,13 @@ export default function Demo() {
         </div>
 
         <div className="lg:w-2/4 z-30">
-          <h2 className="lg:text-[64px] text-[24px]  text-[#004542] font-bold leading-tight ">
-            SAY HELLO TO TRACEBALE
+            <div className="lg:text-[64px] flex lg:gap-0 gap-2 lg:flex-col flex-row  tracking-tighter text-[24px]  text-[#004542] font-bold leading-tight ">
+            <h2 className="">
+            SAY HELLO 
           </h2>
+          <h2>TO TRACEBALE</h2>
+            </div>
+         
           <p className="lg:w-[66%] text-[#004542]  text-[15px] lg:text-[20px]">
           CottonConnect offers a unique and customizable platform - 
           TraceBale, designed specifically for the textile industry.
