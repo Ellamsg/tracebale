@@ -1,18 +1,30 @@
 import React from "react";
-
+import { motion } from "framer-motion";
+import { Fade } from "react-awesome-reveal";
 export default function Demo() {
+
+
+
+
+
+
+    
   return (
     <div className="py-7 bg-[#B4F5FF] relative h-[870px] md:h-[1050px] lg:h-[770px] ">
       {/* Demo section
        */}
       <div className="flex lg:flex-row flex-col  justify-items-center px-3  lg:px-6 gap-5 justify-center">
-        <div className="">
-          <img
-            src="macbook.png"
-            className="lg:h-[396px] lg:w-[750px]"
-            alt="macbook"
-          />
-        </div>
+      <Fade delay={1e3} cascade damping={1e-1} direction="up">
+      <div className="">
+            
+            <img
+              src="macbook.png"
+              className="lg:h-[396px] lg:w-[750px]"
+              alt="macbook"
+            />
+          </div>
+</Fade>
+        
 
         <div className="lg:w-2/4 z-30">
             <div className="lg:text-[64px] flex lg:gap-0 gap-2 lg:flex-col flex-row  tracking-tighter text-[24px]  text-[#004542] font-bold leading-tight ">
@@ -57,7 +69,7 @@ export default function Demo() {
           ffffff
         </svg>
         <div className=" justify-center px-3 lg:items-center  flex lg:flex-row flex-col z-30 absolute lg:bottom-[20px]">
-          <div className="lg:border-r-2 text-[#004542] lg:py-4  lg:px-5 font-bold text-[24px] lg:text-[48px] border-[#004542]">
+          <div className="lg:border-r-2 inter text-[#004542] lg:py-4  lg:px-5 font-bold text-[24px] lg:text-[48px] border-[#004542]">
             <p>TRACE THE ORIGIN</p>
           </div>
 

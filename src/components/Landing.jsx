@@ -12,7 +12,7 @@ export default function Landing() {
                     {/** button */}
                     <button className="btn my-4 uppercase">Request a demo</button>
             </div>
-        <img className="w-full lg:h-full  h-[500px] lg:pt-0 pt-[200px]" src="gardens.png"/>
+        <img className="w-full lg:h-full  h-[500px] lg:pt-0 pt-[200px]" src="garden.png"/>
         </div>
     </div>
   );
