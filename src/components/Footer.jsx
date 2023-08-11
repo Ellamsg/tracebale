@@ -11,22 +11,22 @@ export default function Footer() {
           <img className="lg:h-[] h-[60px] " src="tracebale.png" />
         </div>
 
-        <div className="lg:grid items-center  text-center justify-items-center lg:grid-cols-4 justify-center">
+        <div className="lg:grid items-center text-white  text-center justify-items-center lg:grid-cols-4 justify-center">
           <div className=" flex justify-center">
             <img src="map1.png" />
           </div>
-          <div className="">
-            <p>hh dhdhdhddhhdhhd</p>
-            <p>hh dhdhdhddhhdhhd</p>
-            <p>hh dhdhdhddhhdhhd</p>
-            <p>hh dhdhdhddhhdhhd</p>
-            <p>hh dhdhdhddhhdhhd</p>
+          <div className="text-left">
+            <p>United Kingdom (Gblobal headquarters)</p>
+            <p>Wework,New Kings Beam House,</p>
+            <p>22 Upper Ground, London,SE1 9PD</p>
+            <p>T: +44 (0)203 865 7038</p>
+            <p>E:info@cottonconnect.org</p>
           </div>
-          <div>
-            <p>hh dhdhdhddhhdhhd</p>
-            <p>hh dhdhdhddhhdhhd</p>
-            <p>hh dhdhdhddhhdhhd</p>
-            <p>hh dhdhdhddhhdhhd</p>
+          <div className="text-right">
+            <p>india (india Headoffice)</p>
+            <p>Gurugram</p>
+            <p>T: +44 (0)203 865 7038</p>
+            <p>E:info@cottonconnect.org</p>
           </div>
           <div className="flex justify-center">
             <img  src="map2.png" />

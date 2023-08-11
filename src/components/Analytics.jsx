@@ -5,7 +5,7 @@ export default function Analytics() {
     <div className="bg-[#0F265C]">
       <div className="flex lg:flex-row flex-col gap-5">
         <div className="">
-          <img className="" src="lady2.png" />
+          <img className=" lg-h-auto h-[650px] w-[500px]" src="lady2.png" />
         </div>
 
         <div className="flex   justify-center items-end gap-4 px-2 lg:px-0 lg:gap-7">

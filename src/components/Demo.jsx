@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Demo() {
   return (
-    <div className="py-7 bg-[#B4F5FF] relative lg:h-[770px] ">
+    <div className="py-7 bg-[#B4F5FF] relative h-[730px] lg:h-[770px] ">
       {/* Demo section
        */}
-      <div className="flex lg:flex-row flex-col  justify-items-center  px-6 gap-5 justify-center">
+      <div className="flex lg:flex-row flex-col  justify-items-center px-3  lg:px-6 gap-5 justify-center">
         <div className="">
           <img
             src="macbook.png"
@@ -52,12 +52,12 @@ export default function Demo() {
           ></path>
           ffffff
         </svg>
-        <div className=" justify-center px-3 flex z-30 absolute lg:bottom-[120px]">
-          <div className="border-r-2 px-5 lg:text-[48px] border-[#004542]">
+        <div className=" justify-center px-3 flex lg:flex-row flex-col z-30 absolute lg:bottom-[120px]">
+          <div className="lg:border-r-2 lg:px-5 lg:text-[48px] border-[#004542]">
             <p>TRACE THE ORIGIN</p>
           </div>
 
-          <div className="lg:w-[60%] lg:text-[20px] text-[12px] px-5">
+          <div className="lg:w-[60%] lg:text-[20px] text-[12px] lg:px-5">
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Doloremque veritatis consequatur soluta fuga recusandae corporis
