@@ -4,8 +4,8 @@ export default function Analytics() {
   return (
     <div className="bg-[#0F265C]">
       <div className="flex lg:flex-row flex-col gap-5">
-        <div className="">
-          <img className=" lg-h-auto h-[650px] w-[500px]" src="lady2.png" />
+        <div className="class flex object-contain bg-contain">
+          <img className=" lg-h-[650px] h-[650px]  " src="lady2.png" />
         </div>
 
         <div className="flex   justify-center items-end gap-4 px-2 lg:px-0 lg:gap-7">

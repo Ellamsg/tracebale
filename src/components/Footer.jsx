@@ -8,21 +8,21 @@ export default function Footer() {
     <footer className="bg-[#004542]">
       <div className="">
         <div className="flex justify-center py-6">
-          <img className="lg:h-[] h-[60px] " src="tracebale.png" />
+          <img className="lg:h-[132px] lg:absolute h-[60px] " src="tracebale.png" />
         </div>
 
-        <div className="lg:grid items-center text-white  text-center justify-items-center lg:grid-cols-4 justify-center">
+        <div className="grid gap-5 lg:gap-0 items-center text-white  text-center justify-items-center lg:grid-cols-4 justify-center">
           <div className=" flex justify-center">
             <img src="map1.png" />
           </div>
-          <div className="text-left">
+          <div className="lg:text-left">
             <p>United Kingdom (Gblobal headquarters)</p>
             <p>Wework,New Kings Beam House,</p>
             <p>22 Upper Ground, London,SE1 9PD</p>
             <p>T: +44 (0)203 865 7038</p>
             <p>E:info@cottonconnect.org</p>
           </div>
-          <div className="text-right">
+          <div className="lg:text-right">
             <p>india (india Headoffice)</p>
             <p>Gurugram</p>
             <p>T: +44 (0)203 865 7038</p>
@@ -34,18 +34,18 @@ export default function Footer() {
         </div>
 
         <div className="text-[16px] lg:px-6 text-white  text-center">
-          <div className="flex text-[12px] gap-1 lg:text-[21px] border-b-2 border-white py-5 lg:px-9  justify-center">
-            <p>platform</p>
-            <p>platform</p>
-            <p>platform</p>
-            <p>platform</p>
-            <p>platform</p>
-            <p>platform</p>
-            <p>platform</p>
+          <div className="flex flex-wrap  text-[12px] text-[#B1D2C5] gap-1 lg:gap-4 lg:text-[21px] border-b-2 border-white py-5 lg:px-9  justify-center">
+            <p>Platform</p>
+            <p>Challenges</p>
+            <p>Advantages</p>
+            <p>News</p>
+            <p>Resources</p>
+            <p>Terms & condition</p>
+            <p>Privacy policy</p>
           </div>
         </div>
         <div className="flex lg:flex-row flex-col py-6 px-6 justify-between text-white items-center">
-            <div className="pt-5">
+            <div className="pt-5 text-[#B1D2C5]">
              <p>2022 cottonconnect</p>
             </div>
             <div className="flex gap-3">

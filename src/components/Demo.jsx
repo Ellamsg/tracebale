@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Demo() {
   return (
-    <div className="py-7 bg-[#B4F5FF] relative h-[730px] lg:h-[770px] ">
+    <div className="py-7 bg-[#B4F5FF] relative h-[730px] md:h-[1050px] lg:h-[770px] ">
       {/* Demo section
        */}
       <div className="flex lg:flex-row flex-col  justify-items-center px-3  lg:px-6 gap-5 justify-center">
@@ -14,8 +14,8 @@ export default function Demo() {
           />
         </div>
 
-        <div className="lg:w-2/4 ">
-          <h2 className="lg:text-[64px] text-[#004542] font-bold leading-tight lg:w-[70%]">
+        <div className="lg:w-2/4 z-30">
+          <h2 className="lg:text-[64px] text-[24px]  text-[#004542] font-bold leading-tight ">
             SAY HELLO TO TRACEBALE
           </h2>
           <p className="lg:w-[66%] text-[#004542] text-[15px] lg:text-[20px]">
@@ -52,8 +52,8 @@ export default function Demo() {
           ></path>
           ffffff
         </svg>
-        <div className=" justify-center px-3 flex lg:flex-row flex-col z-30 absolute lg:bottom-[120px]">
-          <div className="lg:border-r-2 lg:px-5 lg:text-[48px] border-[#004542]">
+        <div className=" justify-center px-3  flex lg:flex-row flex-col z-30 absolute lg:bottom-[50px]">
+          <div className="lg:border-r-2 lg:px-5 font-bold text-[24px] lg:text-[48px] border-[#004542]">
             <p>TRACE THE ORIGIN</p>
           </div>
 

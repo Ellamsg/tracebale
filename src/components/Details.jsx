@@ -22,19 +22,23 @@ export default function Details() {
           <div className="flex flex-col px-2  gap-4">
             <div className="isolation ">
               <img src="Isolation1.png" />
-              <p>lllglhhh;hhlhlkhn gjhghbgjgjjb ghgjhbgkgg gjk</p>
+          
+              <p><span className="span">Regular data  intake </span> at farm/gin level- <span className="span">real- time availability</span> of seed cotton/lint</p>
+            
+             
+               
             </div>
             <div className="isolation ">
               <img src="Isolation2.png" />
-              <p>lllglhhh;hhlhlkhn gjhghbgjgjjb gggjhjf gjk</p>
+              <p>Every <span className="span">transaction </span> at every stage<span className="span">recorded</span> proof of chain of custody</p>
             </div>
             <div className="isolation ">
               <img src="Isolation3.png" />
-              <p>lllglhhh;hhlhlkhn gjhghbgjgjjb ghjgbhggk gjk</p>
+              <p className="lg:pl-3"><span className="span">Process </span> and <span className="span">sale differentiation</span> for all processors</p>
             </div>
             <div className="isolation ">
               <img src="Isolation4.png" />
-              <p>lllglhhh;hhlhlkhn gjhghbgjgjjb gjhjhghg gjk</p>
+              <p><span className="span">Regular data  intake </span> at farm/gin level- <span className="span">real- time availability</span> of seed cotton/lint</p>
             </div>
             <button className=" w-[70%] rounded-[10px] bg-[#D73F91] text-[16px] text-white p-[10px]">KNOW PLATFORM IN DETAILS</button>
           </div>
