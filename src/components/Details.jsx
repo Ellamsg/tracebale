@@ -29,13 +29,13 @@ export default function Details() {
 
         <div className="flex lg:flex-row  lg:py-5 py-6 flex-col gap-6 items-center ">
           <div>
-            <img src="world.png" alt />
+            <img className="lg:h-auto  md:h-[400px]" src="world.png" alt />
           </div>
 
           <div>
 
              {/**slider*/}
-            <div className="flex flex-col cursor-all-scroll no-scrollbar overflow-auto h-[420px] px-2 gap-4">
+            <div className="flex flex-col  cursor-all-scroll no-scrollbar overflow-auto h-[420px] px-2 gap-4">
               <div className="isolation ">
                 <img src="Isolation4.png" />
                 <p>

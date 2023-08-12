@@ -37,7 +37,7 @@ bg-[#D73F91] rounded-md hover:bg-white hover:text-black transition-all  text-whi
 
 .isolation{
 
-  @apply lg:w-[80%] lg:text-[18px] text-[13px] flex bg-[#C1B8F6] p-3 gap-3 items-center rounded-[13px];
+  @apply lg:w-[80%]  lg:text-[18px] text-[13px] flex bg-[#C1B8F6] p-3 gap-3 items-center rounded-[13px];
 }
 
 .span{
