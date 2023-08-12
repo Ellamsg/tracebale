@@ -8,3 +8,8 @@ background-color: #CBDAFB;
   background-color: #CBDAFB;
 }
 
+.point::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb-color);
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}

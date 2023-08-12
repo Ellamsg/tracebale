@@ -1,8 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
+import InfiniteScroll from 'react-infinite-scroll-component';
 
 export default function Details() {
-  return (
+
+
+
+
+ return (
     <div className="bg-[#FFDEE1]">
+
+        
+
+
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#C1B8F6"
@@ -28,16 +37,22 @@ export default function Details() {
             <img src="world.png" alt />
           </div>
 
-          <div className="flex flex-col px-2  gap-4">
+
+          <div>
+
+        
+
+          <div className="flex flex-col px-2 gap-4">
+         
             <div className="isolation ">
               <img src="Isolation4.png" />
-
               <p>
                 <span className="span">Regular data intake </span> at farm/gin
                 level- <span className="span">real- time availability</span> of
                 seed cotton/lint
               </p>
             </div>
+
             <div className="isolation ">
               <img src="Isolation3.png" />
               <p className="pl-2">
@@ -48,19 +63,22 @@ export default function Details() {
             <div className="isolation ">
               <img src="Isolation2.png" />
               <p className="">
-                <span className="span">Process </span> and{" "}
+                <span className="span">Process </span> and
                 <span className="span">sale differentiation</span> for all
                 processors
               </p>
             </div>
+
             <div className="isolation ">
               <img src="Isolation1.png" />
               <p>
-                Bale tracking back to farm level-<span className="span"> </span>{" "}
-                <span className="span">unique farmer/bale/yarn IDs</span>{" "}
+                Bale tracking back to farm level-<span className="span"> </span>
+                <span className="span">unique farmer/bale/yarn IDs</span>
               </p>
             </div>
-            <button className=" w-[70%] rounded-[10px] bg-[#D73F91] text-[16px] text-white p-[10px]">
+             
+          </div>
+          <button className="mt-5 ml-3 w-[45%] rounded-[10px] bg-[#D73F91] text-[16px] text-white p-[14px]">
               KNOW PLATFORM IN DETAILS
             </button>
           </div>

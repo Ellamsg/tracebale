@@ -9,11 +9,13 @@ export default function Footer() {
       <div className="">
         <div className="flex justify-center py-6">
           <img className="lg:h-[132px] lg:absolute h-[60px] " src="tracebale.png" />
+       
         </div>
 
         <div className="grid gap-5 lg:gap-0 items-center text-white  text-center justify-items-center lg:grid-cols-4 justify-center">
-          <div className=" flex justify-center">
+          <div className=" flex justify-center relative">
             <img src="map1.png" />
+            <img className="absolute bottom-5 right-4" src="location.png" alt="location"/>
           </div>
           <div className="lg:text-left">
             <p>United Kingdom (Gblobal headquarters)</p>
@@ -28,8 +30,9 @@ export default function Footer() {
             <p>T: +44 (0)203 865 7038</p>
             <p>E:info@cottonconnect.org</p>
           </div>
-          <div className="flex justify-center">
+          <div className="flex relative justify-center">
             <img  src="map2.png" />
+            <img className="absolute top-7 left-7" src="location.png" alt="location"/>
           </div>
         </div>
 
