@@ -18,7 +18,7 @@ export default function Demo() {
         </Fade>
 
         <div className="lg:w-2/4 z-30">
-          <div className="lg:text-[64px] flex lg:gap-0 gap-2 lg:flex-col flex-row  tracking-tighter text-[24px]  text-[#004542] font-bold leading-tight ">
+          <div className="lg:text-[64px] inter flex lg:gap-0 gap-2 lg:flex-col flex-row   text-[24px]  text-[#004542]  leading-tight ">
             <h2 className="">SAY HELLO</h2>
             <h2>TO TRACEBALE</h2>
           </div>
