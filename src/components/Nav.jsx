@@ -19,7 +19,7 @@ export default function Nav() {
   return (
     <div className=" bg-oceanblue bg-[#CBDAFB] z-50 sticky lg:py-0   top-0 ">
 
-      <div className=" sticky md:px-6  top-0 left-0 md:p-0  lg:text-xl  text-[16px]">
+      <div className=" sticky md:px-1 lg:px-2  top-0 left-0 md:p-0  lg:text-xl  text-[16px]">
         <div className="md:flex items-center py-3  md:py-4 justify-between lg:gap-6  ">
           <div className="md:pl-0 pl-2 ml-2 lg:ml-0   ">
           <img src="tracebale2.png" className=""/>
@@ -27,7 +27,7 @@ export default function Nav() {
 
           <div
             onClick={() => setOpen(!open)}
-            className=" absolute  right-2 top-[28px] z-10 cursor-pointer lg:hidden"
+            className=" absolute  right-2 top-[28px] z-10 cursor-pointer md:hidden"
           >
             <div className="w-4  mr-2  "
               name={open ? "close" : "menu"}
@@ -57,7 +57,7 @@ export default function Nav() {
             <div className="md:flex md:items-center  font-name">
               {Links.map((link) => (
                 <div className="">
-                  <li className="text-[16px] text-[#0F265C] font-semibold px-2 lg:py-0 py-3 ">
+                  <li className="lg:text-[16px] text-[11px] text-[#0F265C] font-semibold px-2 lg:py-0 py-3 ">
                     <Link to={link.link} className="  duration-500">
                       {link.name}
                     </Link>
