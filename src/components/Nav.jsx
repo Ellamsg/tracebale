@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
+import { AiOutlineAlignRight } from "react-icons/ai";
 export default function Nav() {
 
   
@@ -35,7 +35,7 @@ export default function Nav() {
             >
 
               <div className="dsh">
-                  hghg
+                <AiOutlineAlignRight className="text-[30px]"/>
               </div>
               <div className="dsh">
                                   

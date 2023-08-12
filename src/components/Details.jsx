@@ -42,7 +42,7 @@ export default function Details() {
 
         
 
-          <div className="flex flex-col px-2 gap-4">
+          <div className="flex flex-col no-scrollbar overflow-auto h-[420px] px-2 gap-4">
          
             <div className="isolation ">
               <img src="Isolation4.png" />
@@ -76,9 +76,27 @@ export default function Details() {
                 <span className="span">unique farmer/bale/yarn IDs</span>
               </p>
             </div>
+
+            
+            <div className="isolation ">
+              <img src="Isolation4.png" />
+              <p>
+                <span className="span">Regular data intake </span> at farm/gin
+                level- <span className="span">real- time availability</span> of
+                seed cotton/lint
+              </p>
+            </div>
+
+            <div className="isolation ">
+              <img src="Isolation3.png" />
+              <p className="pl-2">
+                Every <span className="span">transaction </span> at every stage
+                <span className="span">recorded</span> proof of chain of custody
+              </p>
+            </div>
              
           </div>
-          <button className="mt-5 ml-3 w-[45%] rounded-[10px] bg-[#D73F91] text-[16px] text-white p-[14px]">
+          <button className="mt-5 ml-3 lg:w-[45%] rounded-[10px] bg-[#D73F91] text-[13px] lg:text-[16px] text-white p-[14px]">
               KNOW PLATFORM IN DETAILS
             </button>
           </div>

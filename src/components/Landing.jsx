@@ -1,9 +1,20 @@
 import React from "react";
 
 export default function Landing() {
+
+
+
+
+
+    
   return (
     <div className="landing pt-6 relative ">
         <div className="">
+            <img className="absolute lg:bottom-[90px]" src="farm.png"/>
+            <img className="absolute lg:bottom-[190px] lg:left-9" src="line3.png"/>
+            <img className="absolute lg:bottom-[260px] lg:right-6" src="obj.png"/>
+            <img className="absolute lg:bottom-[340px] lg:left-[480px]" src="line2.png"/>
+            <img className="absolute lg:top-9 lg:right-6" src="cloth.png"/>
             <div className=" text-[#004542] absolute px-3
              lg:leading-normal leading-tight lg:px-6">
                 <p className=" font-bold text-[28px] lg:text-[46px]"> Trace  it:</p>

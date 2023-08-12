@@ -69,7 +69,7 @@ export default function Demo() {
           ffffff
         </svg>
         <div className=" justify-center px-3 lg:items-center  flex lg:flex-row flex-col z-30 absolute lg:bottom-[20px]">
-          <div className="lg:border-r-2 inter text-[#004542] lg:py-4  lg:px-5 font-bold text-[24px] lg:text-[48px] border-[#004542]">
+          <div className="lg:border-r-2 inter text-[#004542] lg:py-4  lg:px-5 font-extra-bold text-[24px] lg:text-[48px] border-[#004542]">
             <p>TRACE THE ORIGIN</p>
           </div>
 
