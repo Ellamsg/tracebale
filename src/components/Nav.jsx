@@ -19,7 +19,7 @@ export default function Nav() {
   return (
     <div className=" bg-oceanblue bg-[#CBDAFB] z-50 sticky lg:py-0   top-0 ">
 
-      <div className=" sticky md:px-1 lg:px-2  top-0 left-0 md:p-0  lg:text-xl  text-[16px]">
+      <div className=" sticky md:px-1 lg:px-6  top-0 left-0 md:p-0  lg:text-xl  text-[16px]">
         <div className="md:flex items-center py-3 lg:py-4  md:py-2 justify-between lg:gap-6  ">
           <div className="md:pl-0 pl-2 ml-2 lg:ml-0   ">
           <img src="tracebale2.png" className=""/>
