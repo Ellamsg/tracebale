@@ -5,8 +5,17 @@ export default function Nav() {
   let Links = [
     { name: "PLATFORM", link: "/" },
     { name: "ADVANTAGES", link: "/" },
-    { name: "NEWS & RESOURCES    v", link: "/" },
-    { name: "REQUESt FOR DEMO", link: "/" },
+    {
+      name: (
+        <div className=" flex gap-1">
+          <p>NEWS & RESOURCES</p>
+
+          <img src="v-shape.png" className="h-3 lg:mt-[3px] w-3" />
+        </div>
+      ),
+      link: "/",
+    },
+    { name: "REQUEST FOR DEMO", link: "/" },
   ];
   let [open, setOpen] = useState(false);
   return (
