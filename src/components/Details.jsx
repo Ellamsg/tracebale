@@ -16,7 +16,7 @@ export default function Details() {
       </Fade>
       <div className="">
         <div className="lg:px-6 px-3 text-[#0E40BB]">
-          <p className="lg:text-[64px] text-[32px] leading-tight font-bold tracking-tighter lg:w-[75%]">
+          <p className="lg:text-[64px] inter text-[32px] leading-tight  lg:w-[75%]">
             Traceable - One Platform to Navigate The Challenges of The Textile
             Industry
           </p>

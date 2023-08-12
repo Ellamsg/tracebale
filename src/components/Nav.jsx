@@ -8,7 +8,7 @@ export default function Nav() {
   let Links = [
     { name: "PLATFORM", link: "/" },
     { name: "ADVANTAGES", link: "/" },
-    { name: "NEWS & RESOURCES  v", link: "/" },
+    { name: "NEWS & RESOURCES    v", link: "/" },
     { name: "REQUESt FOR DEMO", link: "/" },
    
    
@@ -56,7 +56,7 @@ export default function Nav() {
           >
             <div className="md:flex md:items-center  font-name">
               {Links.map((link) => (
-                <div className="uppercase">
+                <div className="">
                   <li className="text-[16px] text-[#0F265C] font-semibold px-2 lg:py-0 py-3 ">
                     <Link to={link.link} className="  duration-500">
                       {link.name}
