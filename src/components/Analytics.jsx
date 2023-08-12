@@ -2,12 +2,12 @@ import React from "react";
 import { Fade } from "react-awesome-reveal";
 export default function Analytics() {
   return (
-    <div className="bg-[#0F265C]">
-         
+    <div className="bg-[#0F265C] relative">
+               <img className="top-[160px] lg:top-9 left-[184px] lg:left-[148px] absolute " src="moon.png" />
       <div className="flex lg:flex-row md:flex-row  flex-col gap-6">
       <Fade  direction="up">
         <div className="class flex object-contain bg-contain">
-          <img className=" lg-h-[650px] lg:w-auto w-full h-[650px]  " src="lady2.png" />
+          <img className=" lg-h-[650px] lg:w-auto w-full h-[700px]  " src="lady2.png" />
         </div>
      
         </Fade>

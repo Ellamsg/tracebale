@@ -40,7 +40,7 @@ export default function Details() {
 
         
 
-          <div className="flex flex-col no-scrollbar overflow-auto h-[420px] px-2 gap-4">
+          <div className="flex flex-col cursor-all-scroll no-scrollbar overflow-auto h-[420px] px-2 gap-4">
          
             <div className="isolation ">
               <img src="Isolation4.png" />
