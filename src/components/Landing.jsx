@@ -13,7 +13,7 @@ export default function Landing() {
         <div className="">
 
             <Fade >
-            <img className="absolute lg:bottom-auto  bottom-5 z-50 h-[200px] lg:h-[740px] lg:top-7 w-full " src="new-removebg.png"/>
+            <img className="absolute lg:bottom-auto  bottom-5 z-50 h-[200px] lg:h-[790px] lg:top-7 w-full " src="new-removebg.png"/>
             </Fade>
             <div className=" text-[#004542] absolute px-3
              lg:leading-normal leading-tight lg:px-6">
