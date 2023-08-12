@@ -13,6 +13,7 @@ export default function Home() {
      <Demo/>
      <Details/>
      <Knowmore/>
+    
     </div>
   );
 }
