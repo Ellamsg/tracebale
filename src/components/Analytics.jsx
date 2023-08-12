@@ -4,7 +4,7 @@ export default function Analytics() {
   return (
     <div className="bg-[#0F265C] relative">
                <img className="top-[169px] lg:top-[159px] md:left-[100px] w-[90px] md:w-auto left-[170px] lg:left-[148px] absolute " src="moon.png" />
-      <div className="flex lg:flex-row md:flex-row  flex-col gap-6">
+      <div className="flex lg:flex-row md:flex-row  flex-col gap-6 md:gap-3 lg:gap-9">
       <Fade  direction="up">
         <div className="class flex object-contain bg-contain">
           <img className=" lg-h-[650px] lg:w-auto w-full h-[700px]  " src="lady2.png" />
