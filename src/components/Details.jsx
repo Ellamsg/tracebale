@@ -4,8 +4,6 @@ import InfiniteScroll from 'react-infinite-scroll-component';
 export default function Details() {
 
 
-
-
  return (
     <div className="bg-[#FFDEE1]">
 
