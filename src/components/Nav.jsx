@@ -27,7 +27,7 @@ export default function Nav() {
 
           <div
             onClick={() => setOpen(!open)}
-            className=" absolute  right-2 top-[28px] z-10 cursor-pointer md:hidden"
+            className=" absolute  right-2 top-[28px] z-10 cursor-pointer lg:hidden"
           >
             <div className="w-4  mr-2  "
               name={open ? "close" : "menu"}
